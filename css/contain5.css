@@ -1,0 +1,57 @@
+.containe-6 {
+    max-width: 1170px;
+    
+      margin-left: auto;
+      margin-right: auto;
+        display: flex;
+        justify-content:center;
+       align-items: center;
+       flex-direction: column;
+       margin-top: -20px;
+      
+}
+.txt1 {  
+font-size: 32px;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+}
+.zubbaba {
+    margin-top: 20px;
+    position: relative;
+    width: 629px;
+height: 419px;
+border-radius: 20px;
+  }
+  .youtube {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90px;
+height: 60px;
+border-radius: 10px;
+  }
+  @media (max-width:330px){
+   .containe-6{ 
+    margin-top: 580px;
+    width: 320px;}
+   .youtube {
+    width: 70px;
+height: 50px;
+border-radius: 8px;
+  }
+  .zubbaba {
+    width: 300px;
+    height: 199.84px; 
+    border-radius: 20px;  
+  }
+  .txt1 {
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+  }
+  }
