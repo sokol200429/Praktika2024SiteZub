@@ -1,195 +1,182 @@
 .containe-3 {
-    max-width: 1093px;
-    height: 1052px;
-      margin-left: auto;
-      margin-right: auto;
-        display: flex;
-        justify-content:center;
-       align-items: center;
-       flex-direction: column;
-       margin-top: -100px;
+  max-width: 1093px;
+  height: 1052px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -100px;
 }
 
 .blokGlav1 {
-    max-width: 1093px;
-    height:1052px;
-      margin-left: auto;
-      margin-right: auto;
-        display: flex;
-        justify-content:center;
-        
-       align-items: center;
-  
+  max-width: 1093px;
+  height: 1052px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
 }
 .sv2vvv {
-    width: 837px;
-height: 590px;
-
-
+  width: 837px;
+  height: 590px;
 }
 .blokGlav2 {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    margin-top: 20px;
-} 
-.tr4 {margin-top: 40px;
-padding: 20px;
-font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.tr4 {
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 32px;
 
-line-height: 48px;
-letter-spacing: 0em;}
+  line-height: 48px;
+  letter-spacing: 0em;
+}
 
 .blokKalum {
+  text-align: center;
+  max-width: 363px;
+
+  display: grid;
+  grid-template-columns: 363px;
+
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+}
+
+.ads,
+.ads1 {
+  background-color: rgba(0, 134, 118, 0.1);
+}
+.ads1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  background-color: rgb(190, 147, 147);
+}
+.contds {
+  display: grid;
+  grid-template: repeat(10, 1fr) / repeat(25, 1fr);
+  height: 230px;
+  width: 363;
+}
+.text2ds {
+  width: 71px;
+  height: 108px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 10px;
+}
+
+.cartinads {
+  grid-column-start: 7;
+  grid-column-end: 17;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 30px;
+}
+.textds {
+  grid-column-start: 6;
+  grid-column-end: 19;
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.text1ds {
+  text-align: left;
+  grid-column-start: 3;
+  grid-column-end: 23;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+.text1ds1 {
+  text-align: left;
+  grid-column-start: 2;
+  grid-column-end: 15;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+@media (max-width: 330px) {
+  .containe-3 {
+    width: 320px;
+    margin-top: 230px;
+    margin-left: -10px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    max-width: 363px;
-  
-    
-  
-    display: grid;
-    grid-template-columns: 363px ;
-  
-    grid-row-gap: 1em;
-    grid-column-gap: 1em;
-   
   }
-  
-.ads{
-   
-    background-color: rgba(0, 134, 118, 0.1);
-
-  }
- 
-  .contds {
-    display: grid;
-    grid-template: repeat(10, 1fr) / repeat(25, 1fr);
-    height: 230px;
-    width: 363;
-  }
-  .text2ds {
-    width: 71px;
-    height: 108px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 10px;
-
-  }
-  
-  .cartinads {
-    grid-column-start: 7;
-    grid-column-end: 17;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    margin-top: 30px;
-  
+  .sv2vvv {
+    width: 300px;
+    height: 222px;
+    margin-top: 190px;
+    margin-left: 25px;
   }
   .textds {
-  
-    grid-column-start: 6;
-    grid-column-end: 19;
-    grid-row-start: 2;
-    grid-row-end: 3;
-
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-letter-spacing: 0em;
-
-
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
   }
   .text1ds {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
     text-align: left;
-    grid-column-start: 3;
-    grid-column-end: 23;
-    grid-row-start: 4;
-    grid-row-end: 5;
-font-size: 13px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-
-
   }
-  .text1ds1 {
-    text-align: left;
-    grid-column-start: 2;
-    grid-column-end: 15;
-    grid-row-start: 4;
-    grid-row-end: 5;
-font-size: 13px;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0em;
-
-
+  .blokKalum {
+    width: 300px;
+    flex-direction: column;
+    margin-top: 50px;
   }
-  @media (max-width: 330px) {
-    .containe-3{  
-    
-        width: 320px;
-        margin-top: 230px;
-        margin-left: -10px;
-  margin-right: auto;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    .sv2vvv{
-        width: 300px;
-        height: 222px;
-       margin-top: 190px;
-       margin-left: 25px;
-        }
-        .textds{
-       
-            font-size: 14px;
-            font-weight: 500;
-            line-height: 21px;
-            letter-spacing: 0em;
-            
-            }
-            .text1ds{
-                font-size: 11px;
-                font-weight: 400;
-                line-height: 18px;
-                letter-spacing: 0em;
-                text-align: left;
-                }
-    .blokKalum{
-        
-        width: 300px;
-        flex-direction: column;
-        margin-top: 50px;
-        }
-    .blokGlav1{ 
-        width: 300px;
-        display: flex;
-        justify-content:center;
-        align-items: center;
-       
-        flex-direction: column;}
-    .blokGlav2 {
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        margin-top: 10px;
-        flex-direction: column;
-    } 
-    .contds {
-       
-     
-        width: 300;
-      }
-      .ads{width: 320px;}
-      .tr4{margin-top: 70px;
-        padding: 30px;
-       
-  font-size: 18px;
-  
-  line-height: 27px;
-  letter-spacing: 0em;
-  
-    }
+  .blokGlav1 {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+  }
+  .blokGlav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .contds {
+    width: 300;
+  }
+  .ads {
+    width: 320px;
+  }
+  .tr4 {
+    margin-top: 70px;
+    padding: 30px;
+
+    font-size: 18px;
+
+    line-height: 27px;
+    letter-spacing: 0em;
+  }
 }
